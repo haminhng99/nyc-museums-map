@@ -6,6 +6,7 @@ Tools Used
 - Google Colab (Data Cleaning)
 
 Process:
-- Cleaning data with Python in Google Colab
-- Importing CSV to ArcGIS Pro
-- Using 
+- Data Cleaning (Python)
+  - Focusing on Museums in Manhattan
+  - Removing museums that are closed/temporarily closed
+  -  
