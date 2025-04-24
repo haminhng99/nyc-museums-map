@@ -12,13 +12,15 @@ Process:
 -  Visualizing using ArcGIS Pro
 
 Map (From bottom to top layers)
-- Basemap: Newspaper (ArcGIS Basemap)
-- Parks
-- Subway Lines
-- Museum Buffer (0.2 - walkable distance to subway stations)
-- Gallery (Clusters)
-- Museums (CLusters)
-- Neighborhoods (NYC Neighborhoods - i.e. Chinatown, Midtown, East Village,...)
+1. Basemap: Newspaper (ArcGIS Basemap)
+2. Parks
+3. Subway Lines
+4. Museum Buffer (0.2 - walkable distance to subway stations)
+5. Gallery (Clusters)
+6. Museums (CLusters)
+7. Neighborhoods (NYC Neighborhoods - i.e. Chinatown, Midtown, East Village,...)
 
 Symbology
-- 
+- All Museum points are turned to a cluster 
+
+Labeling
