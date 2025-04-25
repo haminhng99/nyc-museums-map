@@ -35,10 +35,11 @@ Tools Used
     - Out Beyond: 3,953
       >Only appears when users zoom in closer to the map and are able to see individual Museum Points
 - Subway stations: Train icon
-  - Out Beyond: 1:50,000 (Too many subway stations -> Less important than museum points -> Overcrowds the map -> Set Out beyond)
+  - Out Beyond: 1:50,000
+    >Too many subway stations -> Less important than museum points -> Overcrowds the map -> Set Out beyond
 - Subway Lines: Lines
   - Colors based on the NYC MTA system (https://www.mta.info/map/5256)
-  - Grouping individual segments into groups by colors: 
+  - Grouping individual segments into groups by colors: subwaylines.py
 - Gallery Points: TBD
 - Parks:
   - Green Fill
@@ -46,3 +47,10 @@ Tools Used
 - Neighborhood and foot traffic count: TBD
 
 ## Labeling
+- Museums: Museum Name
+  - Out Beyond: 1:9652
+    > For museum names not to be visible when users are zoomed out
+- Subway lines: Subway Groups
+  - Label Class (SQL): Subway_Group = "Insert_Subway_Group_Name"
+    >For example: Subway_Group ='N, Q, R, W'
+    >See all subway group name in subwaylines.py
